@@ -1,0 +1,107 @@
+.msg-card {
+  background: #fff;
+  padding: 16px;
+  border-radius: 8px;
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
+  margin: 20px auto;
+  max-width: 600px;
+}
+
+.msg-title {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 12px;
+}
+
+.msg-input,
+.msg-output-text {
+  width: 100%;
+  min-height: 80px;
+  padding: 10px;
+  margin-bottom: 12px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+}
+
+.msg-options {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 12px;
+}
+
+.msg-dropdown {
+  flex: 1;
+  padding: 8px;
+  border-radius: 6px;
+  border: 1px solid #aaa;
+  font-size: 14px;
+}
+
+.msg-btn {
+  padding: 8px 12px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+  color: white;
+}
+
+.msg-generate {
+  background: #007bff;
+}
+
+.msg-save {
+  background: #28a745;
+}
+
+.msg-copy {
+  background: #6c757d;
+}
+
+.msg-broadcast {
+  background: #6f42c1;
+}
+
+.msg-edit {
+  background: #17a2b8;
+}
+
+.msg-use {
+  background: #ff9800;
+}
+
+.msg-output {
+  margin-top: 16px;
+}
+
+.msg-actions {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.msg-templates {
+  margin-top: 20px;
+}
+
+.msg-template-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #f8f9fa;
+  padding: 8px;
+  border-radius: 6px;
+  margin-bottom: 8px;
+}
+
+.msg-template-text {
+  flex: 1;
+  margin-right: 10px;
+  font-size: 14px;
+}
+
+.msg-template-actions {
+  display: flex;
+  gap: 8px;
+}
